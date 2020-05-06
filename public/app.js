@@ -6,6 +6,6 @@ function something() {
   alert(x);
 }
 
-function add_to_cart() {
-  alert('Hello from function!');
+function add_to_cart(id) {
+  alert('Added pizza with id: ' + id);
 }
